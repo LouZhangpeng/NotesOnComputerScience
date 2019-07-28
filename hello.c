@@ -10,8 +10,8 @@ int main()
     int a[M] = {0};
     for (int i = 0; i < M; i++) {
         a[i] = i % DIVIDOR;
-        printf("%.4d", a[i]);
-        if (i % 20 == 0) printf("\n");
+        printf("%4d", a[i]);
+        if ((i + 1) % 20 == 0) printf("\n");
     }
 
     return 0;
